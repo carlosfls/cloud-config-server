@@ -1,0 +1,4 @@
+services:
+  currency-exchange-service:
+    uri: http://localhost:8000/currency-exchange
+    name: currency-exchange-default
