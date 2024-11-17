@@ -5,9 +5,9 @@ spring:
     username: sa
     password: admin
 
-    jpa:
-      show-sql: false
-      defer-datasource-initialization: true #para que cargue de ultimo data.sql y se creen las tablas 1ro
-    h2:
-      console:
-        enabled: false
+  jpa:
+    show-sql: false
+    defer-datasource-initialization: true #para que cargue de ultimo data.sql y se creen las tablas 1ro
+  h2:
+    console:
+      enabled: false
