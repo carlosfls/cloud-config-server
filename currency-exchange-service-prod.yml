@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:exchangedb
+    username: sa
+    password: admin
+
+    jpa:
+      show-sql: false
+      defer-datasource-initialization: true #para que cargue de ultimo data.sql y se creen las tablas 1ro
+    h2:
+      console:
+        enabled: false
